@@ -4,7 +4,7 @@ This project predicts the final math grade ('G3') of secondary school students
 based on demographic, social, and academic features.
 
 2. Key Machine Learning Highlight: Preventing Data Leakage
-During initial modeling, including first ('G1$') and second period ('G2') grades
+During initial modeling, including first ('G1') and second period ('G2') grades
 resulted in an optimistic MAE of **1.1812**.
  However, realizing that G1 and G2 act as target-proxies and cause **Data Leakage**,
 they were removed to build a **realistic predictive model** based solely
